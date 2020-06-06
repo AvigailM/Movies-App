@@ -1,0 +1,188 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.moviesapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/avigailmarkevich/MoviesApp/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/avigailmarkevich/MoviesApp/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/avigailmarkevich/MoviesApp/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/avigailmarkevich/MoviesApp/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.33.1] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/53a00f7d0c1f619a15d0dabf8840d40e/jetified-flipper-0.33.1/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.33.1] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/53a00f7d0c1f619a15d0dabf8840d40e/jetified-flipper-0.33.1/AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+14-->[com.android.installreferrer:installreferrer:1.0] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/36d0949ca9ff83f1514d723339bda350/jetified-installreferrer-1.0/AndroidManifest.xml:9:5-110
+14-->[com.android.installreferrer:installreferrer:1.0] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/36d0949ca9ff83f1514d723339bda350/jetified-installreferrer-1.0/AndroidManifest.xml:9:22-107
+15
+16    <application
+16-->/Users/avigailmarkevich/MoviesApp/android/app/src/main/AndroidManifest.xml:6:5-26:19
+17        android:name="com.moviesapp.MainApplication"
+17-->/Users/avigailmarkevich/MoviesApp/android/app/src/main/AndroidManifest.xml:7:7-38
+18        android:allowBackup="false"
+18-->/Users/avigailmarkevich/MoviesApp/android/app/src/main/AndroidManifest.xml:11:7-34
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.1.0] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/51c60a74c89e63786feb7a72e94c376c/core-1.1.0/AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->/Users/avigailmarkevich/MoviesApp/android/app/src/main/AndroidManifest.xml:9:7-41
+22        android:label="@string/app_name"
+22-->/Users/avigailmarkevich/MoviesApp/android/app/src/main/AndroidManifest.xml:8:7-39
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->/Users/avigailmarkevich/MoviesApp/android/app/src/main/AndroidManifest.xml:10:7-52
+24        android:supportsRtl="true"
+24-->[com.facebook.android:facebook-android-sdk:5.15.3] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/03bf6249af47e84fdf7d78e9fc9a7112/facebook-android-sdk-5.15.3/AndroidManifest.xml:28:18-44
+25        android:theme="@style/AppTheme"
+25-->/Users/avigailmarkevich/MoviesApp/android/app/src/main/AndroidManifest.xml:12:7-38
+26        android:usesCleartextTraffic="true" >
+26-->/Users/avigailmarkevich/MoviesApp/android/app/src/debug/AndroidManifest.xml:7:18-53
+27        <meta-data
+27-->/Users/avigailmarkevich/MoviesApp/android/app/src/main/AndroidManifest.xml:13:7-105
+28            android:name="com.facebook.sdk.ApplicationId"
+28-->/Users/avigailmarkevich/MoviesApp/android/app/src/main/AndroidManifest.xml:13:18-63
+29            android:value="@string/facebook_app_id" />
+29-->/Users/avigailmarkevich/MoviesApp/android/app/src/main/AndroidManifest.xml:13:64-103
+30
+31        <activity
+31-->/Users/avigailmarkevich/MoviesApp/android/app/src/main/AndroidManifest.xml:14:7-24:18
+32            android:name="com.moviesapp.MainActivity"
+32-->/Users/avigailmarkevich/MoviesApp/android/app/src/main/AndroidManifest.xml:15:9-37
+33            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+33-->/Users/avigailmarkevich/MoviesApp/android/app/src/main/AndroidManifest.xml:17:9-86
+34            android:label="@string/app_name"
+34-->/Users/avigailmarkevich/MoviesApp/android/app/src/main/AndroidManifest.xml:16:9-41
+35            android:launchMode="singleTask"
+35-->/Users/avigailmarkevich/MoviesApp/android/app/src/main/AndroidManifest.xml:18:9-40
+36            android:windowSoftInputMode="adjustResize" >
+36-->/Users/avigailmarkevich/MoviesApp/android/app/src/main/AndroidManifest.xml:19:9-51
+37            <intent-filter>
+37-->/Users/avigailmarkevich/MoviesApp/android/app/src/main/AndroidManifest.xml:20:9-23:25
+38                <action android:name="android.intent.action.MAIN" />
+38-->/Users/avigailmarkevich/MoviesApp/android/app/src/main/AndroidManifest.xml:21:13-65
+38-->/Users/avigailmarkevich/MoviesApp/android/app/src/main/AndroidManifest.xml:21:21-62
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->/Users/avigailmarkevich/MoviesApp/android/app/src/main/AndroidManifest.xml:22:13-73
+40-->/Users/avigailmarkevich/MoviesApp/android/app/src/main/AndroidManifest.xml:22:23-70
+41            </intent-filter>
+42        </activity>
+43        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+43-->/Users/avigailmarkevich/MoviesApp/android/app/src/main/AndroidManifest.xml:25:7-84
+43-->/Users/avigailmarkevich/MoviesApp/android/app/src/main/AndroidManifest.xml:25:17-81
+44        <activity
+44-->[com.google.android.gms:play-services-auth:16.0.1] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/a3d66b2464df080842400230d2c1b202/jetified-play-services-auth-16.0.1/AndroidManifest.xml:23:9-27:75
+45            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+45-->[com.google.android.gms:play-services-auth:16.0.1] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/a3d66b2464df080842400230d2c1b202/jetified-play-services-auth-16.0.1/AndroidManifest.xml:24:13-93
+46            android:excludeFromRecents="true"
+46-->[com.google.android.gms:play-services-auth:16.0.1] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/a3d66b2464df080842400230d2c1b202/jetified-play-services-auth-16.0.1/AndroidManifest.xml:25:13-46
+47            android:exported="false"
+47-->[com.google.android.gms:play-services-auth:16.0.1] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/a3d66b2464df080842400230d2c1b202/jetified-play-services-auth-16.0.1/AndroidManifest.xml:26:13-37
+48            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+48-->[com.google.android.gms:play-services-auth:16.0.1] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/a3d66b2464df080842400230d2c1b202/jetified-play-services-auth-16.0.1/AndroidManifest.xml:27:13-72
+49        <!--
+50            Service handling Google Sign-In user revocation. For apps that do not integrate with
+51            Google Sign-In, this service will never be started.
+52        -->
+53        <service
+53-->[com.google.android.gms:play-services-auth:16.0.1] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/a3d66b2464df080842400230d2c1b202/jetified-play-services-auth-16.0.1/AndroidManifest.xml:33:9-36:110
+54            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+54-->[com.google.android.gms:play-services-auth:16.0.1] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/a3d66b2464df080842400230d2c1b202/jetified-play-services-auth-16.0.1/AndroidManifest.xml:34:13-89
+55            android:exported="true"
+55-->[com.google.android.gms:play-services-auth:16.0.1] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/a3d66b2464df080842400230d2c1b202/jetified-play-services-auth-16.0.1/AndroidManifest.xml:35:13-36
+56            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+56-->[com.google.android.gms:play-services-auth:16.0.1] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/a3d66b2464df080842400230d2c1b202/jetified-play-services-auth-16.0.1/AndroidManifest.xml:36:13-107
+57
+58        <activity
+58-->[com.google.android.gms:play-services-base:16.0.1] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/5a31c44ce562cb0b5746bd925da82833/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+59            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+59-->[com.google.android.gms:play-services-base:16.0.1] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/5a31c44ce562cb0b5746bd925da82833/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+60            android:exported="false"
+60-->[com.google.android.gms:play-services-base:16.0.1] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/5a31c44ce562cb0b5746bd925da82833/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+61            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+61-->[com.google.android.gms:play-services-base:16.0.1] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/5a31c44ce562cb0b5746bd925da82833/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+62
+63        <meta-data
+63-->[com.google.android.gms:play-services-basement:16.0.1] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/5b0a1bbd30ff503d3f7082fe7b133035/jetified-play-services-basement-16.0.1/AndroidManifest.xml:23:9-25:69
+64            android:name="com.google.android.gms.version"
+64-->[com.google.android.gms:play-services-basement:16.0.1] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/5b0a1bbd30ff503d3f7082fe7b133035/jetified-play-services-basement-16.0.1/AndroidManifest.xml:24:13-58
+65            android:value="@integer/google_play_services_version" />
+65-->[com.google.android.gms:play-services-basement:16.0.1] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/5b0a1bbd30ff503d3f7082fe7b133035/jetified-play-services-basement-16.0.1/AndroidManifest.xml:25:13-66
+66
+67        <activity
+67-->[com.facebook.android:facebook-common:7.0.0] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/351d9f3dcdf16ffa598dbc3133ed9997/facebook-common-7.0.0/AndroidManifest.xml:30:9-33:66
+68            android:name="com.facebook.FacebookActivity"
+68-->[com.facebook.android:facebook-common:7.0.0] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/351d9f3dcdf16ffa598dbc3133ed9997/facebook-common-7.0.0/AndroidManifest.xml:31:13-57
+69            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+69-->[com.facebook.android:facebook-common:7.0.0] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/351d9f3dcdf16ffa598dbc3133ed9997/facebook-common-7.0.0/AndroidManifest.xml:32:13-96
+70            android:theme="@style/com_facebook_activity_theme" />
+70-->[com.facebook.android:facebook-common:7.0.0] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/351d9f3dcdf16ffa598dbc3133ed9997/facebook-common-7.0.0/AndroidManifest.xml:33:13-63
+71        <activity android:name="com.facebook.CustomTabMainActivity" />
+71-->[com.facebook.android:facebook-common:7.0.0] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/351d9f3dcdf16ffa598dbc3133ed9997/facebook-common-7.0.0/AndroidManifest.xml:34:9-71
+71-->[com.facebook.android:facebook-common:7.0.0] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/351d9f3dcdf16ffa598dbc3133ed9997/facebook-common-7.0.0/AndroidManifest.xml:34:19-68
+72        <activity
+72-->[com.facebook.android:facebook-common:7.0.0] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/351d9f3dcdf16ffa598dbc3133ed9997/facebook-common-7.0.0/AndroidManifest.xml:35:9-49:20
+73            android:name="com.facebook.CustomTabActivity"
+73-->[com.facebook.android:facebook-common:7.0.0] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/351d9f3dcdf16ffa598dbc3133ed9997/facebook-common-7.0.0/AndroidManifest.xml:36:13-58
+74            android:exported="true" >
+74-->[com.facebook.android:facebook-common:7.0.0] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/351d9f3dcdf16ffa598dbc3133ed9997/facebook-common-7.0.0/AndroidManifest.xml:37:13-36
+75            <intent-filter>
+75-->[com.facebook.android:facebook-common:7.0.0] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/351d9f3dcdf16ffa598dbc3133ed9997/facebook-common-7.0.0/AndroidManifest.xml:39:13-48:29
+76                <action android:name="android.intent.action.VIEW" />
+76-->[com.facebook.android:facebook-common:7.0.0] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/351d9f3dcdf16ffa598dbc3133ed9997/facebook-common-7.0.0/AndroidManifest.xml:40:17-69
+76-->[com.facebook.android:facebook-common:7.0.0] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/351d9f3dcdf16ffa598dbc3133ed9997/facebook-common-7.0.0/AndroidManifest.xml:40:25-66
+77
+78                <category android:name="android.intent.category.DEFAULT" />
+78-->[com.facebook.android:facebook-common:7.0.0] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/351d9f3dcdf16ffa598dbc3133ed9997/facebook-common-7.0.0/AndroidManifest.xml:42:17-76
+78-->[com.facebook.android:facebook-common:7.0.0] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/351d9f3dcdf16ffa598dbc3133ed9997/facebook-common-7.0.0/AndroidManifest.xml:42:27-73
+79                <category android:name="android.intent.category.BROWSABLE" />
+79-->[com.facebook.android:facebook-common:7.0.0] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/351d9f3dcdf16ffa598dbc3133ed9997/facebook-common-7.0.0/AndroidManifest.xml:43:17-78
+79-->[com.facebook.android:facebook-common:7.0.0] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/351d9f3dcdf16ffa598dbc3133ed9997/facebook-common-7.0.0/AndroidManifest.xml:43:27-75
+80
+81                <data
+81-->[com.facebook.android:facebook-common:7.0.0] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/351d9f3dcdf16ffa598dbc3133ed9997/facebook-common-7.0.0/AndroidManifest.xml:45:17-47:50
+82                    android:host="cct.com.moviesapp"
+82-->[com.facebook.android:facebook-common:7.0.0] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/351d9f3dcdf16ffa598dbc3133ed9997/facebook-common-7.0.0/AndroidManifest.xml:46:21-56
+83                    android:scheme="fbconnect" />
+83-->[com.facebook.android:facebook-common:7.0.0] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/351d9f3dcdf16ffa598dbc3133ed9997/facebook-common-7.0.0/AndroidManifest.xml:47:21-47
+84            </intent-filter>
+85        </activity>
+86        <!--
+87         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+88         with the application context. This config is merged in with the host app's manifest,
+89         but there can only be one provider with the same authority activated at any given
+90         point; so if the end user has two or more different apps that use Facebook SDK, only the
+91         first one will be able to use the provider. To work around this problem, we use the
+92         following placeholder in the authority to identify each host application as if it was
+93         a completely different provider.
+94        -->
+95        <provider
+95-->[com.facebook.android:facebook-core:7.0.0] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/1c6aa06c59fb3e0fc4f66e69dd7b502e/jetified-facebook-core-7.0.0/AndroidManifest.xml:39:9-42:40
+96            android:name="com.facebook.internal.FacebookInitProvider"
+96-->[com.facebook.android:facebook-core:7.0.0] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/1c6aa06c59fb3e0fc4f66e69dd7b502e/jetified-facebook-core-7.0.0/AndroidManifest.xml:40:13-70
+97            android:authorities="com.moviesapp.FacebookInitProvider"
+97-->[com.facebook.android:facebook-core:7.0.0] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/1c6aa06c59fb3e0fc4f66e69dd7b502e/jetified-facebook-core-7.0.0/AndroidManifest.xml:41:13-72
+98            android:exported="false" />
+98-->[com.facebook.android:facebook-core:7.0.0] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/1c6aa06c59fb3e0fc4f66e69dd7b502e/jetified-facebook-core-7.0.0/AndroidManifest.xml:42:13-37
+99
+100        <receiver
+100-->[com.facebook.android:facebook-core:7.0.0] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/1c6aa06c59fb3e0fc4f66e69dd7b502e/jetified-facebook-core-7.0.0/AndroidManifest.xml:44:9-50:20
+101            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+101-->[com.facebook.android:facebook-core:7.0.0] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/1c6aa06c59fb3e0fc4f66e69dd7b502e/jetified-facebook-core-7.0.0/AndroidManifest.xml:45:13-86
+102            android:exported="false" >
+102-->[com.facebook.android:facebook-core:7.0.0] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/1c6aa06c59fb3e0fc4f66e69dd7b502e/jetified-facebook-core-7.0.0/AndroidManifest.xml:46:13-37
+103            <intent-filter>
+103-->[com.facebook.android:facebook-core:7.0.0] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/1c6aa06c59fb3e0fc4f66e69dd7b502e/jetified-facebook-core-7.0.0/AndroidManifest.xml:47:13-49:29
+104                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+104-->[com.facebook.android:facebook-core:7.0.0] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/1c6aa06c59fb3e0fc4f66e69dd7b502e/jetified-facebook-core-7.0.0/AndroidManifest.xml:48:17-95
+104-->[com.facebook.android:facebook-core:7.0.0] /Users/avigailmarkevich/.gradle/caches/transforms-2/files-2.1/1c6aa06c59fb3e0fc4f66e69dd7b502e/jetified-facebook-core-7.0.0/AndroidManifest.xml:48:25-92
+105            </intent-filter>
+106        </receiver>
+107    </application>
+108
+109</manifest>

@@ -1,0 +1,4 @@
+#Sat Jun 06 23:22:29 EEST 2020
+base.0=/Users/avigailmarkevich/MoviesApp/android/app/build/intermediates/dex/release/mergeDexRelease/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
