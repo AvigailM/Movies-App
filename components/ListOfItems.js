@@ -12,7 +12,7 @@ const ListOfItems = ({ sendPage, isLoading, listData, noDataMessege, navigation 
         );
     }
 
-    if (listData.length === 0) {
+    if (!listData || listData.length === 0) {
         return (
             <View style={styles.noDataViews}>
                 <Text>{noDataMessege}</Text>

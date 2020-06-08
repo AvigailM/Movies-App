@@ -1,6 +1,5 @@
 import React from 'react';
-import { View, Image, Text, Button, StyleSheet } from 'react-native';
-//import Colors from '../../constants/Colors';
+import { View, Image, Text, StyleSheet } from 'react-native';
 import Card from './Card';
 import StyledButton from './StyledButton'
 import * as Constans from '../res/constans'
