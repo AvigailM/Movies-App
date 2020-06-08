@@ -19,7 +19,6 @@
 		54F69C8C5039DFF8E6904655 /* libPods-MoviesApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36AA0822CD8044CBFBCC5100 /* libPods-MoviesApp.a */; };
 		AAA91CAB6BAE8DAA4938AF7B /* libPods-MoviesApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D55F6C373F7C948EAB192C /* libPods-MoviesApp-tvOS.a */; };
 		B316F2CC3CEEC43F42268F87 /* libPods-MoviesApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72DC4A3B95D03D961B23E466 /* libPods-MoviesApp-tvOSTests.a */; };
-		C2185590248BE9D2006BC095 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C218558F248BE9D2006BC095 /* GoogleService-Info.plist */; };
 		ECF73A34CBF23505CA0B4BF9 /* libPods-MoviesApp-MoviesAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A12A7711DA3E2AA6A71326FF /* libPods-MoviesApp-MoviesAppTests.a */; };
 /* End PBXBuildFile section */
 
@@ -64,7 +63,6 @@
 		A12A7711DA3E2AA6A71326FF /* libPods-MoviesApp-MoviesAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoviesApp-MoviesAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7D7D23E0BB813ADF7E91C76 /* Pods-MoviesApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoviesApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-MoviesApp-tvOSTests/Pods-MoviesApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B9D55F6C373F7C948EAB192C /* libPods-MoviesApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoviesApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C218558F248BE9D2006BC095 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EB69C4A4DCAE7AA1C210524F /* Pods-MoviesApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoviesApp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-MoviesApp-tvOS/Pods-MoviesApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -131,7 +129,6 @@
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
-				C218558F248BE9D2006BC095 /* GoogleService-Info.plist */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
@@ -348,7 +345,6 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				C2185590248BE9D2006BC095 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
